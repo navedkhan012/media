@@ -1,0 +1,90 @@
+@media (max-width: 1280px) {
+	.content {
+		width: 50%;
+	}
+}
+@media (max-width: 1024px) {
+	.container {
+		padding: 0px 5%;
+	}
+	.center_menu {
+		display: none;
+	}
+	.content {
+		padding: 0 20px;
+	}
+	.tabContent {
+		margin: 0;
+	}
+	.priceBoxWrapper > div {
+		padding: 0px 20px 0px 0;
+	}
+	.container.featureAbsolute {
+		padding-top: 5%;
+	}
+}
+@media (max-width: 768px) {
+	.overview {
+		flex-direction: column;
+	}
+	.overview .image {
+		width: 100%;
+	}
+	.content {
+		width: 100%;
+		padding: 0 0px;
+	}
+	.boxFlex {
+		flex-direction: column;
+	}
+	.cunstomFlex {
+		flex-direction: column;
+	}
+	.customerBox {
+		margin-bottom: 20px;
+	}
+	.counters h4 {
+		font-size: 20px;
+	}
+	.priceBoxWrapper {
+		flex-wrap: wrap;
+		padding: 15px;
+		align-items: center;
+		justify-content: center;
+	}
+	.priceBoxWrapper > div {
+		padding: 10px 0px 10px 0;
+		border: none;
+		border-bottom: 1px solid var(--lightGrayColor);
+		width: 100%;
+	}
+
+	.scroll-menu ul li {
+		font-size: 13px;
+		margin: 0 5px 0px 0;
+	}
+
+	.faqBox {
+		width: 100%;
+	}
+	.footerWrapper {
+		flex-direction: column;
+	}
+	.footerBox ul {
+		margin-bottom: 20px;
+	}
+	.tabContent {
+		position: relative;
+	}
+	.counterWrapper {
+		flex-direction: column;
+	}
+	.counters {
+		width: 100%;
+		margin: 0px 0 40px 0 !important;
+		padding: 0px;
+		border: none;
+	}
+}
+@media (max-width: 640px) {
+}
